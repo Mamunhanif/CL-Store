@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protected Page</title>
+    <script>
+        var password = "mypassword123"; // Change this to your password
+        var userPassword = prompt("Enter password to access this page:");
+        
+        if (userPassword !== password) {
+            document.body.innerHTML = "<h1 style='text-align:center; margin-top:50px;'>Access Denied! Incorrect Password.</h1>";
+        }
+    </script>
+</head>
+<body>
+    <!-- Your clothing store HTML here -->
+</body>
+</html>
